@@ -78,7 +78,7 @@ footer p{color:#fff;margin-bottom:0}
 }
 @media (max-width: 768px) {
 #home h1{font-size:70px}
-#home h3{font-size:28px;margin-bottom:0}
+#home h3{font-size:28px;margin-bottom:0;margin-top:100px}
 #home h2{font-size:18px;line-height:1.4em;margin-top:50px;margin-bottom:70px;padding:0 10px}
 .btn1{margin-right:0;margin-bottom:15px;padding:17px 68px}
 #services,address{padding:80px 0}
