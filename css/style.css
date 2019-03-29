@@ -28,7 +28,6 @@ address h3 a{font-size:40px;font-weight:600;line-height:1;display:inline-block;c
 .navbar-nav .active-lang a:hover{color:#fff}
 .navbar-nav .active-lang{background-color:#111;padding:0 10px;border-radius:50px;border:1px solid #111}
 .navbar-nav .not-active-lang{background-color:#fff;padding:0 10px;border-radius:50px;border:1px solid #111}
-#home .logo-d{margin-top:25px;margin-bottom:100px}
 #home h3{font-size:40px;font-weight:400}
 #home h1{font-family:'Nexa',sans-serif;font-size:150px;font-weight:600;margin-top:0;margin-bottom:-20px}
 #home h2{font-size:24px;margin-top:0;margin-bottom:120px;font-weight:400;line-height:1.4em}
@@ -54,9 +53,6 @@ address h3 a{font-size:40px;font-weight:600;line-height:1;display:inline-block;c
 #portfolio .wrap .zoom img{-moz-transition:all .2s ease;-o-transition:all .2s ease;-webkit-transition:all .2s ease}
 #portfolio .wrap p{color:#111}
 #portfolio a{color:#111}
-#portfolio .owl-theme .owl-nav.disabled + .owl-dots{position:absolute;bottom:10px;left:0;right:0}
-#portfolio .owl-theme .owl-dots .owl-dot span{background:#fff}
-#portfolio .owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#111}
 address h3{text-align:center}
 #social{background-color:#fafafa;text-align:center}
 #social ul{list-style:none;margin:0;border-top:1px solid #dadce0;padding:40px 0}
