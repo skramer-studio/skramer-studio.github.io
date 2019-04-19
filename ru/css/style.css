@@ -1,7 +1,7 @@
 @font-face{font-family:'GoogleSans';src:url(/fonts/GoogleSans-Light.ttf);font-weight:400}
 @font-face{font-family:'GoogleSans';src:url(/fonts/GoogleSans-Medium.ttf);font-weight:600}
 @font-face{font-family:'Nexa';src:url(/fonts/Nexa-Bold.otf);font-weight:600}
-body{font-family:'GoogleSans',sans-serif;font-size:18px;letter-spacing:.8px;color:#111;-moz-user-select:none;-khtml-user-select:none;user-select:none;overflow-x:hidden}
+body{font-family:'GoogleSans',sans-serif;font-size:18px;letter-spacing:.5px;color:#111;-moz-user-select:none;-khtml-user-select:none;user-select:none;overflow-x:hidden}
 #home a.btn:hover,#home a.btn:focus,#home a.btn:active{color:#fff}
 #home a.btn1:hover,#home a.btn1:focus,#home a.btn1:active,address h3 a:hover,address h3 a:focus,address h3 a:active{color:#111}
 .btn{font-family:'GoogleSans',sans-serif;border-radius:50px;background-color:#111;padding:18px 50px;vertical-align:middle;font-size:18px;font-weight:400;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;line-height:1;display:inline-block;color:#fff;cursor:pointer}
