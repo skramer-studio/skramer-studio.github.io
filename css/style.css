@@ -48,9 +48,10 @@ address h3 a{font-size:40px;font-weight:600;line-height:1;display:inline-block;c
 #portfolio div[class*='col-']:nth-child(odd){padding-right:30px;padding-bottom:70px}
 #portfolio h3{font-size:40px;font-weight:600;margin-top:30px;color:#111}
 #portfolio div[class*='col-'] p{height:50px}
-#portfolio .wrap:hover img{-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1);cursor:pointer}
+#portfolio .wrap:hover img{transition: all .4s cubic-bezier(0,0,0,1);-webkit-transform: scale(1.05);transform: scale(1.05);cursor:pointer}
+#portfolio .wrap:hover h3{text-decoration:underline;}
 #portfolio .wrap .zoom{border-radius:4px;overflow:hidden}
-#portfolio .wrap .zoom img{-moz-transition:all .2s ease;-o-transition:all .2s ease;-webkit-transition:all .2s ease}
+#portfolio .wrap .zoom img{transition: all .8s cubic-bezier(0,0,0,1);}
 #portfolio .wrap p{color:#111}
 #portfolio a{color:#111}
 address h3{text-align:center}
