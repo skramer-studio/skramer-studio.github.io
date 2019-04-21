@@ -5,7 +5,7 @@ body{font-family:'GoogleSans',sans-serif;font-size:18px;letter-spacing:.5px;colo
 #home a.btn:hover,#home a.btn:focus,#home a.btn:active{color:#fff}
 #home a.btn1:hover,#home a.btn1:focus,#home a.btn1:active,address h3 a:hover,address h3 a:focus,address h3 a:active{color:#111}
 .btn{font-family:'GoogleSans',sans-serif;border-radius:50px;background-color:#111;padding:18px 50px;vertical-align:middle;font-size:18px;font-weight:400;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;line-height:1;display:inline-block;color:#fff;cursor:pointer}
-.btn1{font-family:'GoogleSans',sans-serif;border-radius:50px;background-color:#fff;border:2px solid #111;vertical-align:middle;padding:17px 50px;margin-right:20px;font-size:18px;font-weight:400;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;line-height:1;display:inline-block;color:#111;cursor:pointer}
+.btn1{font-family:'GoogleSans',sans-serif;border-radius:50px;background-color:#fff;border:2px solid #111;vertical-align:middle;padding:17px 50px;margin-left:20px;font-size:18px;font-weight:400;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;line-height:1;display:inline-block;color:#111;cursor:pointer}
 .btn:hover,.btn1:hover,#portfolio h3:hover{text-decoration:underline}
 #portfolio h3{line-height:1;display:inline-block;color:#111;cursor:pointer}
 address h3 a{font-size:40px;font-weight:600;line-height:1;display:inline-block;color:#111;cursor:pointer}
@@ -77,7 +77,7 @@ footer p{color:#fff;margin-bottom:0}
 #home h1{font-size:70px}
 #home h3{font-size:28px;margin-bottom:0;margin-top:50px}
 #home h2{font-size:18px;line-height:1.4em;margin-top:30px;margin-bottom:50px;padding:0 10px}
-.btn1{margin-right:0;margin-bottom:15px;padding:17px 68px}
+.btn1{margin-left:0;margin-bottom:15px;padding:17px 68px}
 .btn{padding: 18px 56px}
 #services,address{padding:80px 0}
 .title{font-size:50px;margin-bottom:20px;padding:0 10px;line-height:1em}
