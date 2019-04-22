@@ -43,7 +43,6 @@ address h3 a{font-size:40px;font-weight:600;line-height:1;display:inline-block;c
 #clients .mrg-0 img{margin-top:0}
 #services,address{padding:100px 0;background-color:#fafafa;margin-bottom:0}
 #services h3{font-size:40px;font-weight:600;margin-bottom:30px}
-#services .label{font-weight:400}
 #portfolio{padding:100px 0}
 #portfolio div[class*='col-']:nth-child(even){padding-left:30px;padding-bottom:70px}
 #portfolio div[class*='col-']:nth-child(odd){padding-right:30px;padding-bottom:70px}
