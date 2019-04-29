@@ -103,7 +103,7 @@ footer p{color:#fff;margin-bottom:0}
 #myModal .cards{padding:25px}
 #myModal .modal-body span{margin-top:20px}
 #myModal .modal-body h3:nth-child(5){margin-bottom:0}
-#myModal .modal-footer{padding:0 25px 25px}
+#myModal .modal-footer{padding:0 25px 25px;text-align:left}
 #services,address{padding:80px 0}
 .title{font-size:50px;margin-bottom:20px;padding:0 10px;line-height:1em}
 .subtitle{font-size:20px;line-height:1.4em;padding:0 10px;margin-bottom:60px}
