@@ -254,6 +254,7 @@
 							<h3>TOR</h3>
 						</a>
 						<p>Корпоративный сайт для компании, которая предоставляет услуги грузовых перевозок по Европе и Украине.</p>
+						<div id="counting">0</div><button id="btn">Добавить +1</button></div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6">
@@ -385,7 +386,8 @@
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-
+<script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
+	
 <!-- Preloader -->
 <script>
 	$(window).load(function() {
@@ -422,6 +424,19 @@ $(window).scroll(function(){
         // Initialize
         var bLazy = new Blazy();
     })();
+</script>
+
+<!-- Firebase -->
+<script>
+    var x = new Firebase('https://skramer-studio-bd9f1.firebaseio.com/');
+    x.on('value', function f(s) {
+        $('#counting').text(0 + s.val());
+    });
+    $('#btn').click(function() {
+      x.transaction(function(current_value) {
+        return current_value + 1;
+      });
+    });
 </script>
 	
 <!-- BEGIN JIVOSITE CODE {literal} -->
