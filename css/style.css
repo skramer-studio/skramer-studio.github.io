@@ -18,9 +18,9 @@ nav .nav-link:hover{text-decoration:underline}
 nav .nav-item{margin:0 3px}
 nav .active{color:#fff;background-color:#111}
 header .row{min-height:100vh;text-align:center}
-header h3{font-size:calc(32px + (40 - 32) * ((100vw - 320px) / (1440 - 320)))}
-header h2{font-family:'SkramerSans-Logo',sans-serif;font-size:calc(75px + (150 - 75) * ((100vw - 320px) / (1440 - 320)));font-weight:600;line-height:1}
-header h1{font-size:calc(22px + (24 - 22) * ((100vw - 320px) / (1440 - 320)));line-height:1.4;margin-bottom:100px}
+header h3{font-size:calc(32px + (40 - 32) * ((100vw - 360px) / (1440 - 360)))}
+header h2{font-family:'SkramerSans-Logo',sans-serif;font-size:calc(75px + (150 - 75) * ((100vw - 360px) / (1440 - 360)));font-weight:600;line-height:1}
+header h1{font-size:calc(22px + (24 - 22) * ((100vw - 360px) / (1440 - 360)));line-height:1.4;margin-bottom:100px}
 header .btn i,#portfolio i{font-size:20px;font-weight:600}
 [class*="linearicons-"]:before{vertical-align:middle}
 .btn-black{color:#fff;background-color:#111;border-radius:50px;border:none;padding:17px 35px}
@@ -30,23 +30,23 @@ header .btn i,#portfolio i{font-size:20px;font-weight:600}
 .btn:hover{text-decoration:underline}
 #clients img{opacity:.5}
 #clients img:hover{opacity:1}
-.title{font-size:calc(50px + (80 - 50) * ((100vw - 320px) / (1440 - 320)));font-weight:600}
-.subtitle{font-size:calc(22px + (24 - 22) * ((100vw - 320px) / (1440 - 320)));color:#999;letter-spacing:2px;margin-bottom:100px}
+.title{font-size:calc(50px + (80 - 50) * ((100vw - 360px) / (1440 - 360)));font-weight:600}
+.subtitle{font-size:calc(22px + (24 - 22) * ((100vw - 360px) / (1440 - 360)));color:#999;letter-spacing:2px;margin-bottom:100px}
 #services,#contact,#social{background-color:#f5f5f5}
 #services .card,#portfolio .card{background-color:transparent;border:none}
-#services .card h3{font-size:calc(32px + (40 - 32) * ((100vw - 320px) / (1440 - 320)));font-weight:600;margin:20px 0 30px}
+#services .card h3{font-size:calc(32px + (40 - 32) * ((100vw - 360px) / (1440 - 360)));font-weight:600;margin:20px 0 30px}
 #services .card p{margin-bottom:10px}
 #services i{font-size:80px}
 #portfolio .card:hover img{transition:all .4s cubic-bezier(0,0,0,1);-webkit-transform:scale(1.05);transform:scale(1.05)}
 #portfolio .overflow-hidden img{transition:all .4s cubic-bezier(0,0,0,1)}
 #portfolio .card:hover h3{text-decoration:underline}
-#portfolio h3{font-size:calc(32px + (40 - 32) * ((100vw - 320px) / (1440 - 320)));font-weight:600;color:#111;margin-top:20px}
+#portfolio h3{font-size:calc(32px + (40 - 32) * ((100vw - 360px) / (1440 - 360)));font-weight:600;color:#111;margin-top:20px}
 #portfolio div[class*='col-']:nth-child(odd){padding-right:30px}
 #portfolio div[class*='col-']:nth-child(even){padding-left:30px}
 #portfolio .card-img-overlay{left:auto;bottom:auto;top:0}
 #portfolio .card-img-overlay .views,#portfolio .card-img-overlay .likes{cursor:pointer;background-color:#fff;padding:7px 12px;border-radius:50px}
 .tooltip{font-family:'SkramerSans',sans-serif;font-size:14px;letter-spacing:.3px}
-#contact a{font-size:calc(24px + (40 - 24) * ((100vw - 320px) / (1440 - 320)));font-weight:600;color:#111}
+#contact a{font-size:calc(24px + (40 - 24) * ((100vw - 360px) / (1440 - 360)));font-weight:600;color:#111}
 #social li{border:none;padding:0}
 #social .list-group-item{background-color:transparent}
 #social a{font-size:24px;color:#111}
