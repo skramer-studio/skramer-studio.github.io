@@ -18,7 +18,7 @@ nav .nav-link:hover{text-decoration:underline}
 nav .nav-item{margin:0 3px}
 nav .active{color:#fff;background-color:#111}
 header .row{min-height:100vh;text-align:center}
-.animate{background:#f5f5f5;-webkit-animation-duration:5s;-webkit-animation-timing-function:ease;-webkit-animation-delay:0;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:normal;-webkit-animation-fill-mode:none;-webkit-animation-play-state:running;-webkit-animation-name:border_animate;animation-duration:5s;animation-timing-function:ease;animation-delay:0;animation-iteration-count:infinite;animation-direction:normal;animation-fill-mode:none;animation-play-state:running;animation-name:border_animate;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;max-width:400px;min-height:400px;margin:0 auto;display:flex;top:-50px;left:0;right:0;z-index:-1;position:absolute}
+.animate{background:#f5f5f5;-webkit-animation-duration:10s;-webkit-animation-timing-function:ease;-webkit-animation-delay:0;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:normal;-webkit-animation-fill-mode:none;-webkit-animation-play-state:running;-webkit-animation-name:border_animate;animation-duration:10s;animation-timing-function:ease;animation-delay:0;animation-iteration-count:infinite;animation-direction:normal;animation-fill-mode:none;animation-play-state:running;animation-name:border_animate;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;max-width:400px;min-height:400px;margin:0 auto;display:flex;top:-50px;left:0;right:0;z-index:-1;position:absolute}
 @-webkit-keyframes border_animate {
 0%{border-radius:30% 70% 70% 30%/30% 30% 70% 70%}
 25%{border-radius:58% 42% 75% 25%/76% 46% 54% 24%}
