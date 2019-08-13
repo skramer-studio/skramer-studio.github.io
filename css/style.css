@@ -18,6 +18,19 @@ nav .nav-link:hover{text-decoration:underline}
 nav .nav-item{margin:0 3px}
 nav .active{color:#fff;background-color:#111}
 header .row{min-height:100vh;text-align:center}
+header .animate{background:#f5f5f5;-webkit-animation:10s ease 0 normal none infinite running border_animate;animation:10s ease 0 normal none infinite running border_animate;border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;max-width:400px;min-height:400px;margin:0 auto;display:flex;top:-50px;left:0;right:0;z-index:-1;position:absolute}
+@-webkit-keyframes border_animate {
+0%{border-radius:30% 70% 70% 30%/30% 30% 70% 70%}
+25%{border-radius:58% 42% 75% 25%/76% 46% 54% 24%}
+50%{border-radius:50% 50% 33% 67%/55% 27% 73% 45%}
+75%{border-radius:33% 67% 58% 42%/63% 68% 32% 37%}
+}
+@keyframes border_animate {
+0%{border-radius:30% 70% 70% 30%/30% 30% 70% 70%}
+25%{border-radius:58% 42% 75% 25%/76% 46% 54% 24%}
+50%{border-radius:50% 50% 33% 67%/55% 27% 73% 45%}
+75%{border-radius:33% 67% 58% 42%/63% 68% 32% 37%}
+}
 header h3{font-size:calc(32px + (40 - 32) * ((100vw - 360px) / (1440 - 360)))}
 header h2{font-family:'SkramerSans-Logo',sans-serif;font-size:calc(75px + (150 - 75) * ((100vw - 360px) / (1440 - 360)));font-weight:600;line-height:1}
 header h1{font-size:calc(22px + (24 - 22) * ((100vw - 360px) / (1440 - 360)));line-height:1.4;margin-bottom:100px}
