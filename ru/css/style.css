@@ -5,8 +5,8 @@ html,body{font-family:'SkramerSans',sans-serif;font-size:18px;letter-spacing:.5p
 .b-lazy{-webkit-transition:opacity 500ms ease-in-out;-moz-transition:opacity 500ms ease-in-out;-o-transition:opacity 500ms ease-in-out;transition:opacity 500ms ease-in-out;max-width:100%;opacity:0}
 .b-lazy.b-loaded{opacity:1}
 .preloader{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#111;z-index:9999}
-.preloader img{display:block;position:absolute;left:0;right:0;top:-30px;bottom:0;width:80px;height:80px;margin:auto}
-.preloader p{font-family:'SkramerSans-Logo',sans-serif;font-size:40px;color:#fff;display:block;position:absolute;left:0;right:0;top:100px;bottom:0;width:308px;height:30px;line-height: normal;text-align:center;margin:auto}
+.preloader img{display:block;position:absolute;left:0;right:0;top:-50px;bottom:0;width:80px;height:80px;margin:auto}
+.preloader p{font-family:'SkramerSans-Logo',sans-serif;font-size:40px;color:#fff;display:block;position:absolute;left:0;right:0;top:90px;bottom:0;width:308px;height:30px;line-height: normal;text-align:center;margin:auto}
 #slidebox{padding-top:20px;position:fixed;bottom:3%;left:-200px;line-height:1;z-index:1000;transform:rotate(-90deg);-ms-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-ms-transform-origin:left top 0;-moz-transform-origin:left top 0;-webkit-transform-origin:left top 0;transform-origin:left top 0}
 #slidebox:after{content:'';width:270px;height:1px;background-color:#dee2e6;position:absolute;top:37px;left:70px}
 #slidebox span{font-family:'SkramerSans-Logo',sans-serif;font-size:32px;color:#111}
