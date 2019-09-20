@@ -56,8 +56,8 @@ header .btn i,#portfolio i{font-size:20px;font-weight:600}
 #portfolio h3{font-size:calc(32px + (40 - 32) * ((100vw - 360px) / (1440 - 360)));font-weight:600;color:#111;margin-top:20px}
 #portfolio div[class*='col-']:nth-child(odd){padding-right:30px}
 #portfolio div[class*='col-']:nth-child(even){padding-left:30px}
-#portfolio .card-img-overlay{left:auto;bottom:auto;top:0;padding: 30px 25px}
-#portfolio .card-img-overlay .views,#portfolio .card-img-overlay .likes{cursor:pointer;background-color:#fff;padding:7px 12px;border-radius:50px}
+#portfolio .card-img-overlay{left:auto;bottom:auto;top:0;padding:30px 25px}
+#portfolio .card-img-overlay .views,#portfolio .card-img-overlay .likes{cursor:pointer;background-color:#fff;padding:7px 12px;border-radius:50px;margin-left:3px}
 .tooltip{font-family:'SkramerSans',sans-serif;font-size:14px;letter-spacing:.3px}
 #contact a{font-size:calc(24px + (40 - 24) * ((100vw - 360px) / (1440 - 360)));font-weight:600;color:#111}
 #social li{border:none;padding:0}
