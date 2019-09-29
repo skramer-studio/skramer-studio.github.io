@@ -28,11 +28,11 @@
     const viewsSelector = node.parentNode.querySelector('span.views');
 
     viewsSelector.classList.add('disabled');
-    viewsSelector.setAttribute(attribute, 'Переглянуто!');
+    viewsSelector.setAttribute(attribute, 'Просмотрено!');
   };
   const changeLikeState = (node, attribute) => {
     node.classList.add('disabled');
-    node.setAttribute(attribute, 'Вподобано!');
+    node.setAttribute(attribute, 'Понравившиеся!');
   };
 
   // General helpers.
