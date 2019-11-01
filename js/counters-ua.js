@@ -41,16 +41,15 @@
   });
 
   // Initialize the Firebase application.
-    var firebaseConfig = {
-    apiKey: "AIzaSyBU5uBhgyJsZD-PHaUlPAvggDLa5Dt9c-k",
-    authDomain: "skramer-studio-bd9f1.firebaseapp.com",
-    databaseURL: "https://skramer-studio-bd9f1.firebaseio.com",
-    projectId: "skramer-studio-bd9f1",
-    storageBucket: "skramer-studio-bd9f1.appspot.com",
-    messagingSenderId: "696606944540",
-    appId: "1:696606944540:web:18e3fbd40a4a06f1"
-  };
-
+  firebase.initializeApp({
+    apiKey: 'AIzaSyBU5uBhgyJsZD-PHaUlPAvggDLa5Dt9c-k',
+    authDomain: 'skramer-studio-bd9f1.firebaseapp.com',
+    databaseURL: 'https://skramer-studio-bd9f1.firebaseio.com',
+    projectId: 'skramer-studio-bd9f1',
+    storageBucket: 'skramer-studio-bd9f1.appspot.com',
+    messagingSenderId: '696606944540',
+    appId: '1:696606944540:web:18e3fbd40a4a06f1',
+  });
 
   const collection = firebase.firestore().collection('project');
 
