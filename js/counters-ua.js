@@ -51,7 +51,7 @@
     appId: '1:696606944540:web:18e3fbd40a4a06f1',
   });
 
-  const collection = firebase.firestore().collection('foo');
+  const collection = firebase.firestore().collection('project');
 
   // Get views and likes from the firestore.
   collection.onSnapshot(result => result.forEach((doc) => {
