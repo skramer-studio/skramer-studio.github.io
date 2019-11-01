@@ -28,11 +28,11 @@
     const viewsSelector = node.parentNode.querySelector('span.views');
 
     viewsSelector.classList.add('disabled');
-    viewsSelector.setAttribute(attribute, 'Просмотрено!');
+    viewsSelector.setAttribute(attribute, 'Viewed!');
   };
   const changeLikeState = (node, attribute) => {
     node.classList.add('disabled');
-    node.setAttribute(attribute, 'Понравившиеся!');
+    node.setAttribute(attribute, 'Liked!');
   };
 
   // General helpers.
@@ -55,10 +55,15 @@
 
   // Get views and likes from the firestore.
   collection.onSnapshot(result => result.forEach((doc) => {
-    const { views, likes } = doc.data();
+    const data = doc.data();
 
-    document.querySelector(`[data-views-id="${doc.id}"]`).textContent = views;
-    document.querySelector(`[data-likes-id="${doc.id}"]`).textContent = likes;
+    ['views', 'likes'].forEach(action => {
+        const selector = document.querySelector(`[data-${action}-id="${doc.id}"]`);
+
+        if (selector) {
+            selector.textContent = data[action];
+        }
+    });
   }));
 
   // Increment views functionality.
