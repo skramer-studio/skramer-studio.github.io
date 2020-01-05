@@ -1,0 +1,22 @@
+{
+	"name" : "Web studio Skramer",
+	"short_name" : "Skramer",
+	"icons" : [
+		{
+			"src": "https://skramer-studio.github.io/favicon/android-chrome-192x192.png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "https://skramer-studio.github.io/favicon/android-chrome-512x512.png",
+			"sizes": "512x512"
+		}],
+	"theme_color" : "#ffffff",
+	"background_color" : "#ffffff",
+	"display" : "standalone",
+	"start_url" : "https://skramer-studio.github.io",
+	"lang" : "Ukrainian",
+	"screenshots" : [],
+	"description" : "Creation, promotion and support of sites, landing page, online stores and much more.",
+	"orientation" : "undefined",
+	"generated" : "undefined"
+}
