@@ -34,6 +34,27 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<link rel='manifest' href='/manifest.webmanifest'>
+	
+	<!-- PWA -->
+	<script>
+		// This is the service worker with the Cache-first network
+		// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+		// Check compatibility for the browser we're running this in
+		if ("serviceWorker" in navigator) {
+		  if (navigator.serviceWorker.controller) {
+		    console.log("[PWA Builder] active service worker found, no need to register");
+		  } else {
+		    // Register the service worker
+		    navigator.serviceWorker
+		      .register("pwabuilder-sw.js", {
+		        scope: "./"
+		      })
+		      .then(function (reg) {
+		        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+		      });
+		  }
+		}
+	</script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111654089-1"></script>
@@ -586,27 +607,6 @@
 	<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
 	<script src="js/counters-ua.js"></script>
-	
-	<!-- PWA -->
-	<script>
-		// This is the service worker with the Cache-first network
-		// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-		// Check compatibility for the browser we're running this in
-		if ("serviceWorker" in navigator) {
-		  if (navigator.serviceWorker.controller) {
-		    console.log("[PWA Builder] active service worker found, no need to register");
-		  } else {
-		    // Register the service worker
-		    navigator.serviceWorker
-		      .register("pwabuilder-sw.js", {
-		        scope: "./"
-		      })
-		      .then(function (reg) {
-		        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-		      });
-		  }
-		}
-	</script>
 
 	<!-- Hotjar Tracking Code for https://skramer-studio.github.io/ -->
 	<script>
