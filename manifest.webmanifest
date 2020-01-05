@@ -1,5 +1,5 @@
 {
-	"name" : "Web studio Skramer",
+	"name" : "Skramer Studio",
 	"short_name" : "Skramer",
 	"icons" : [
 		{
@@ -16,7 +16,8 @@
 	"start_url" : "https://skramer-studio.github.io",
 	"lang" : "Ukrainian",
 	"screenshots" : [],
-	"description" : "Creation, promotion and support of sites, landing page, online stores and much more.",
+	"description" : "Розробляємо, просуваємо та підтримуємо сайти, landing page, інтернет-магазини і ще багато іншого.",
 	"orientation" : "portrait",
+	"scope" : "Web developer",
 	"generated" : "undefined"
 }
