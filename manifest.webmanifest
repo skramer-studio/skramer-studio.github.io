@@ -13,11 +13,11 @@
 	"theme_color" : "#ffffff",
 	"background_color" : "#ffffff",
 	"display" : "standalone",
-	"start_url" : "https://skramer-studio.github.io",
+	"start_url" : "skramer-studio.github.io",
 	"lang" : "Ukrainian",
 	"screenshots" : [],
-	"description" : "Creation, promotion and support of sites, landing page, online stores and much more.",
+	"description" : "Створення, просування та підтримка сайтів, landing page, інтернет-магазинів і ще багато іншого.",
 	"orientation" : "portrait",
-	"scope" : "Web developer",
+	"scope" : "",
 	"generated" : "undefined"
 }
