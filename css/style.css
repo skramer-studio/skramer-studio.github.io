@@ -18,6 +18,7 @@ nav .nav-link{font-size:calc(18px + (24 - 18) * ((100vw - 360px) / (1440 - 360))
 nav .nav-link:hover{text-decoration:underline}
 nav .nav-item{margin:0 3px}
 nav .active{font-weight:600;color:#111}
+nav .active:hover{text-decoration:none}
 header .row{min-height:100vh;text-align:center}
 header h1{font-size:calc(24px + (50 - 24) * ((100vw - 360px) / (1440 - 360)));margin-bottom:80px;font-weight:600}
 header .btn i,#portfolio i{font-size:20px;font-weight:600}
