@@ -10,7 +10,7 @@ html,body{font-family:'SkramerSans',sans-serif;font-size:18px;letter-spacing:.5p
 #slidebox a.scroll-top{font-size:28px;color:#111;margin-right:350px}
 #slidebox a.scroll-top i{font-weight:600;-o-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out}
 #slidebox a.scroll-top i:hover{-o-transform:translateX(8px);-ms-transform:translateX(8px);-moz-transform:translateX(8px);-webkit-transform:translateX(8px);transform:translateX(8px)}
-.navbar{padding:0 158px}
+.navbar{padding:0}
 .navbar-brand{font-family:'SkramerSans-Logo',sans-serif;font-size:calc(40px + (50 - 40) * ((100vw - 360px) / (1440 - 360)));color:#111;padding-top:20px;line-height:.6}
 .navbar-brand:hover{color:#111}
 .navbar-brand span{font-family:'SkramerSans',sans-serif;font-size:calc(18px + (24 - 18) * ((100vw - 360px) / (1440 - 360)))}
