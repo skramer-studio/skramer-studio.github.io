@@ -19,6 +19,7 @@ nav .nav-link:hover{text-decoration:underline}
 nav .nav-item{margin:0 3px}
 nav .active{font-weight:600;color:#111}
 nav .active:hover{text-decoration:none;cursor:default}
+header{margin-top:-80px}
 header .row{min-height:100vh;text-align:center}
 header h1{font-size:calc(24px + (50 - 24) * ((100vw - 360px) / (1440 - 360)));font-weight:600}
 header p{font-size:calc(18px + (24 - 18) * ((100vw - 360px) / (1440 - 360)));margin-bottom:80px}
@@ -65,6 +66,7 @@ header h1 > br{display:none}
 #portfolio div[class*='col-']:nth-child(even){padding-left:15px}
 }
 @media (max-width: 575.98px) {
+header{margin-top:inherit}
 header p{margin-bottom:50px}
 .btn-black{padding:17px 27.5px}
 .subtitle{margin-bottom:50px;line-height:1.4}
