@@ -1,7 +1,8 @@
 @font-face{font-family:'SkramerSans';src:url(../fonts/SkramerSans-Light.ttf);font-weight:400}
 @font-face{font-family:'SkramerSans';src:url(../fonts/SkramerSans-Medium.ttf);font-weight:600}
 @font-face{font-family:'SkramerSans-Logo';src:url(../fonts/SkramerSans-Logo.otf);font-weight:600}
-html,body{font-family:'SkramerSans',sans-serif;cursor: url(../images/multimedia-option.cur), default;font-size:18px;letter-spacing:.5px;color:#111;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none;user-select:none;overflow-x:hidden}
+html,body{font-family:'SkramerSans',sans-serif;font-size:18px;letter-spacing:.5px;color:#111;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none;user-select:none;overflow-x:hidden}
+a{cursor:url(../images/multimedia-option.png),url(../images/multimedia-option.cur),default}
 .b-lazy{-webkit-transition:opacity 500ms ease-in-out;-moz-transition:opacity 500ms ease-in-out;-o-transition:opacity 500ms ease-in-out;transition:opacity 500ms ease-in-out;max-width:100%;opacity:0}
 .b-lazy.b-loaded{opacity:1}
 #slidebox{padding-top:20px;position:fixed;bottom:3%;left:-200px;line-height:1;z-index:1000;transform:rotate(-90deg);-ms-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-ms-transform-origin:left top 0;-moz-transform-origin:left top 0;-webkit-transform-origin:left top 0;transform-origin:left top 0}
