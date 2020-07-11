@@ -40,7 +40,7 @@ header .btn i,#portfolio i{font-size:20px;font-weight:600}
 #services .card,#portfolio .card{background-color:transparent;border:none}
 #services .card h3{font-size:calc(32px + (40 - 32) * ((100vw - 360px) / (1440 - 360)));font-weight:600;margin:20px 0 30px}
 #services .card p{margin-bottom:10px}
-#services i{font-size:80px}
+#services i{font-size:100px}
 #portfolio .card:hover img{transition:all .4s cubic-bezier(0,0,0,1);-webkit-transform:scale(1.05);transform:scale(1.05)}
 #portfolio .overflow-hidden img{transition:all .4s cubic-bezier(0,0,0,1)}
 #portfolio .card:hover h3{text-decoration:underline}
