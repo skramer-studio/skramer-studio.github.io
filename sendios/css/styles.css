@@ -1,4 +1,4 @@
-html,body{font-family:'Montserrat',sans-serif}
+html,body{font-family:'Montserrat',sans-serif;overflow-x:hidden}
 .navbar{padding-top:55px;padding-bottom:37px}
 #block-1,#block-2,#block-3,#block-4{padding-bottom:120px}
 #block-1 h1{font-size:76px;line-height:95px;font-weight:800;color:#232323;margin-bottom:38px}
